@@ -1,0 +1,209 @@
+[
+  {
+    "section": "Direct sentences",
+    "rule": "Actor as subject, sentence and paragraph limits, simple tenses, few modals, no semicolons, one word per thing",
+    "from": "prompt a, the ASD-STE100 rule list",
+    "evidence": [
+      {
+        "round": "1",
+        "test": "a against b, a reader-first draft without word rules",
+        "result": "a won 3 to 1 with 7 ties across all units."
+      }
+    ],
+    "removed": "Round 8: applied alone to three no-skill drafts, it lost 1 to 2. Simple tenses and no contractions turned \"haven't opened\" into \"did not open\"."
+  },
+  {
+    "section": "Concrete words",
+    "rule": "Name the thing, no coined nouns or metaphors for mechanisms",
+    "from": "the author's round 1 notes on \"gains a third ground\", \"roles\", and \"the one bootstrap secret\"",
+    "evidence": [
+      {
+        "round": "2",
+        "test": "c against a, where c added this rule, scannable structure, length, numbers, and address",
+        "result": "1 to 1 with 9 ties. It never won a round on its own and rode into the skill with prompt c."
+      }
+    ],
+    "removed": "Round 8: the one-rule edit changed none of three Opus 5.5 no-skill drafts, so the model already follows it."
+  },
+  {
+    "section": "Concrete words",
+    "rule": "Never write \"load-bearing\"",
+    "from": "the author's round 4b note: \"Classic LLM junk\"",
+    "evidence": [],
+    "removed": "Round 8: dropped from the skill with the Concrete words section. The phrase stays in tells.json."
+  },
+  {
+    "section": "Scannable structure",
+    "rule": "First sentence states the finding, parallel items in lists, grouped numbers, first-sentence skim gets the picture",
+    "from": "the author's round 1 note: scannability decides",
+    "evidence": [
+      {
+        "round": "2",
+        "test": "added with prompt c, as for concrete words",
+        "result": "1 to 1 with 9 ties"
+      },
+      {
+        "round": "8",
+        "test": "none plus the Scannable structure section against none",
+        "result": "rule 2, none 0, tie 1"
+      }
+    ]
+  },
+  {
+    "section": "Scannable structure",
+    "rule": "A short status update or email reads better as prose, and bold covers only an item's first words",
+    "from": "the author's edits to drafts written with the skill, 2026-10-06 to 2026-10-11",
+    "evidence": [
+      {
+        "round": "6",
+        "test": "hand-edited pairs, prose against bullets and bold",
+        "result": "2 to 0 with 1 tie"
+      }
+    ]
+  },
+  {
+    "section": "Length",
+    "rule": "Cut what the reader does not need, no restated headings, no closing summary",
+    "from": "added with prompt c",
+    "evidence": [
+      {
+        "round": "2",
+        "test": "added with prompt c, as for concrete words",
+        "result": "1 to 1 with 9 ties"
+      },
+      {
+        "round": "8",
+        "test": "none plus the Length section (without the live-call paragraph) against none",
+        "result": "rule 1, tie 1; the edit left a third draft unchanged"
+      }
+    ]
+  },
+  {
+    "section": "Length",
+    "rule": "Cut a first draft by about a quarter",
+    "from": "the author's edits to drafts written with the skill, 2026-10-06 to 2026-10-11",
+    "evidence": [
+      {
+        "round": "6",
+        "test": "hand-edited pairs, trimmed against untrimmed",
+        "result": "2 to 0 with 1 tie"
+      },
+      {
+        "round": "8",
+        "test": "none plus the Length section (without the live-call paragraph) against none",
+        "result": "rule 1, tie 1; the edit left a third draft unchanged"
+      }
+    ]
+  },
+  {
+    "section": "Length",
+    "rule": "Text read during a live call is short lines, but a question stays a full spoken question",
+    "from": "the author's edits to drafts written with the skill, 2026-10-06 to 2026-10-11",
+    "evidence": [
+      {
+        "round": "6",
+        "test": "hand-edited pairs, short lines against paragraphs",
+        "result": "3 to 0"
+      },
+      {
+        "round": "8",
+        "test": "none plus this rule against none",
+        "result": "none 2, rule 0. The edit cut questions the user asks aloud into fragments. Reworded so a question stays a full spoken question; the new wording is untested."
+      }
+    ]
+  },
+  {
+    "section": "Numbers",
+    "rule": "A number appears only where it changes what the reader does",
+    "from": "added with prompt c",
+    "evidence": [
+      {
+        "round": "2",
+        "test": "added with prompt c, as for concrete words",
+        "result": "1 to 1 with 9 ties"
+      },
+      {
+        "round": "8",
+        "test": "none plus the Numbers section against none",
+        "result": "rule 1, tie 1; the edit left a third draft unchanged"
+      }
+    ]
+  },
+  {
+    "section": "Numbers",
+    "rule": "Do not count the items you are about to list",
+    "from": "the author's reading of a proposal: \"Five questions, asked in order\" is obfuscating junk",
+    "evidence": [
+      {
+        "round": "5",
+        "test": "hand-edited pairs, the same passage with the opening count removed",
+        "result": "10 to 0"
+      },
+      {
+        "round": "8",
+        "test": "none plus the Numbers section against none",
+        "result": "rule 1, tie 1; the edit left a third draft unchanged"
+      }
+    ]
+  },
+  {
+    "section": "Address",
+    "rule": "\"you\" where the text speaks to the user, a later reader elsewhere",
+    "from": "added with prompt c",
+    "evidence": [
+      {
+        "round": "2",
+        "test": "added with prompt c, as for concrete words",
+        "result": "1 to 1 with 9 ties"
+      }
+    ],
+    "removed": "Round 8: the one-rule edit changed none of three Opus 5.5 no-skill drafts."
+  },
+  {
+    "section": "Order",
+    "rule": "Lead with why the reader should care, then the mechanism",
+    "from": "the author's round 2 notes on an issue and a PR description",
+    "evidence": [
+      {
+        "round": "3",
+        "test": "d against c, where d added this rule and names",
+        "result": "d won 12 to 8 with 6 ties across all units."
+      },
+      {
+        "round": "4b",
+        "test": "d, the whole skill, against x, a colleague voice with exemplars and an editor pass",
+        "result": "d won 14 to 6 with 7 ties."
+      },
+      {
+        "round": "8",
+        "test": "none plus this rule against none",
+        "result": "rule 2, none 0"
+      }
+    ]
+  },
+  {
+    "section": "Names",
+    "rule": "Quote literal strings, no verbs turned into category nouns",
+    "from": "the author's round 2 note (\"one clarify per item\")",
+    "evidence": [
+      {
+        "round": "3",
+        "test": "added with order in prompt d",
+        "result": "d won 12 to 8 with 6 ties"
+      }
+    ],
+    "removed": "Round 8: the edit changed one of three drafts (backticks around a region name), judged a tie."
+  },
+  {
+    "section": "What the comparisons showed",
+    "rule": "A blog post, proposal, or README can take a few paragraphs to set up the problem",
+    "from": "the one-paragraph intro rule, which lost",
+    "evidence": [
+      {
+        "round": "6",
+        "test": "hand-edited pairs, a one-paragraph intro against a longer one",
+        "result": "the one-paragraph intro lost 0 to 3"
+      }
+    ]
+  }
+]

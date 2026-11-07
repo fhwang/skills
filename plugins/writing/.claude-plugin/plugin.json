@@ -1,0 +1,11 @@
+{
+  "name": "writing",
+  "description": "Rules for text a person will read, each one tested in blind side-by-side comparisons.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Francis Hwang"
+  },
+  "homepage": "https://github.com/fhwang/skills",
+  "repository": "https://github.com/fhwang/skills",
+  "license": "MIT"
+}

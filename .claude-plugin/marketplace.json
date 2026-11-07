@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "fhwang-skills",
+  "description": "Claude Code skills by Francis Hwang, each tested against no skill.",
+  "owner": {
+    "name": "Francis Hwang"
+  },
+  "plugins": [
+    {
+      "name": "writing",
+      "description": "Rules for text a person will read, each one tested in blind side-by-side comparisons.",
+      "source": "./plugins/writing",
+      "category": "productivity"
+    }
+  ]
+}

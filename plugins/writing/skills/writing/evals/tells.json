@@ -1,0 +1,7 @@
+[
+ {"pattern": "load-bearing", "from": "round 4b, judge's note: \"Classic LLM junk\""},
+ {"pattern": "\\bgains? (a|an|one|two|three|\\d+) ", "from": "round 1, judge's note: \"gains a third ground\" is indirect"},
+ {"pattern": "\\bgrounds?\\b", "from": "round 1, judge's note: \"ground\" for a reason"},
+ {"pattern": "\\broles?\\b", "from": "round 1, judge's note: dev, staging, and prod as \"roles\""},
+ {"pattern": "^(#+ +)?(Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|[0-9]+) [a-z]+[,:]", "from": "round 5: a count opening a heading or a list"}
+]
