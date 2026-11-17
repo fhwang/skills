@@ -7,18 +7,22 @@ description: How to write any text a person will read: GitHub issues and PR desc
 
 Rules for text a person reads. Each one beat the same draft without it
 in blind side-by-side comparisons judged by the skill's author (rounds
-1 to 8, 2026-09-10 to 2026-11-06). Rules the current model already
-follows without being told were removed in round 8. Code comments and
-commit messages keep their own conventions.
+1 to 8, 2026-09-10 to 2026-11-06), except where a rule says it came
+from the author's own edits. Rules the current model already follows
+without being told were removed in round 8. Code comments and commit
+messages keep their own conventions.
 
 ## Order
 
-Lead with why the reader should care, then the mechanism. In a problem
-statement, the first sentence names what goes wrong for the reader or
-the system, in plain terms. The technical cause comes after it. In a
-list of changes, the first line says in one sentence why the work
-exists, even when the text links an issue that explains it. A link is
-not context.
+Set up the situation before the stakes. Open with how the thing
+normally works, or the practice it should follow. Then say what goes
+wrong, then what follows from it: "So anyone who can reach the
+endpoint can…". Urgency belongs in the title or a label such as
+"Severity: Critical", not in a dramatic first sentence. Say what was
+observed, then what you infer from it and how sure you are. In a list
+of changes, the first line says in one sentence why the work exists,
+even when the text links an issue that explains it. A link is not
+context.
 
 ## Scannable structure
 
@@ -34,13 +38,20 @@ item gets the whole picture.
 
 ## Length
 
-Cut what the reader does not need in order to act or decide. Do not
-restate a heading in the sentence under it. Do not summarize at the
-end. Do not explain what the reader already knows. Between two correct
-sentences, write the shorter one. Maximum 6 sentences in a paragraph,
-one topic per paragraph.
+Cut whole sentences the reader does not need in order to act or
+decide; don't squeeze the sentences you keep. Do not restate a heading
+in the sentence under it. Do not summarize at the end. Do not explain
+what the reader already knows. Maximum 6 sentences in a paragraph, one
+topic per paragraph.
 
-First drafts run long. Before showing one, cut it by about a quarter.
+Name things in full: "the Release workflow", not "Release"; "this PR
+adds", not "this adds"; "whether the workspace is paid or free", not
+"whether it pays". Shorthand the reader has to decode costs more than
+the words it saves.
+
+Don't write to persuade. Cut sentences whose job is to make a problem
+sound alarming or a choice look obvious: "a false drop to zero",
+"nothing would ever flag it", "we'll never have to announce it".
 
 Text the user reads during a live call, such as a call brief, is short
 lines to glance at between answers. A question the user will ask stays
@@ -59,6 +70,13 @@ count is accurate and when the list is long.
 
 ## What the comparisons showed
 
+- From the author's own edits (November 2026): asked to rewrite drafts
+  they had sent unedited, for voice only, the author moved the stakes
+  after the setup in 4 of 8 changed blocks, spelled out shorthand in 5,
+  and cut persuasive sentences in 4. The earlier rules "lead with why
+  the reader should care", "write the shorter one" and "cut by a
+  quarter" produced the openings they rewrote, so those rules were
+  replaced.
 - Judge and revise text in units of one section. Long samples tie.
 - Source wording survives instructions. When rewriting a text that
   already carries jargon, translate the jargon in a separate pass.
